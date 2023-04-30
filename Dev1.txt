@@ -55,3 +55,15 @@ Git 分支合并回主分支的过程可以通过以下步骤实现：
 使用 git push 命令将合并后的 master 分支推送到远程仓库。
 这样，feature 分支的更改就被成功合并到了 master 分支。
 
+
+“Pull request”和“Merge request”是两个不同的概念，它们在不同的版本控制系统中有着略微不同的含义。
+
+Pull request:
+
+指的是GitHub等分布式版本控制系统中，开发人员在完成自己的代码修改后，向项目管理者请求合并其代码的一个过程。其基本流程为：开发人员将自己在fork出来的项目中进行的修改提交到自己所属的分支，然后通过向项目管理者提出pull request来请求将自己的修改合并到主分支中。
+其中，Pull request通常包含以下信息：源分支、目标分支、修改内容、是否关联了一些Issue等。如果管理者认可这个请求，并对其进行审核，那么就能够将这个分支（或者commit）合并到master分支上。
+Merge request:
+
+指的是GitLab等其他分布式版本控制系统中类似于GitHub的Pull request功能。与Pull request相似，Merge request也是开发人员在自己分支上完成功能开发后，向项目管理人员发送的一个请求，请求将自己的分支合并到主分支上。
+在GitLab中，Merge request还包括其他一些高级功能，如代码审查、持续集成等。
+因此，Pull request和Merge request本质上是相似的，都是用于协同开发的代码合并工具，只不过在不同的版本控制系统中有着细微的差别。
