@@ -98,5 +98,4 @@ We also learned the following commands
 ###Reference
 https://www.codecademy.com/practice/tracks/learn-git-introduction/modules/important-git-operations
 https://www.codecademy.com/learn/learn-git/modules/learn-git-git-teamwork-u/cheatsheet
-Learn Git: Introduction: Basic Git Workflow Cheatsheet | Codecademy
 https://www.codecademy.com/article/what-is-diffing
