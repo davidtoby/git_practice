@@ -99,3 +99,4 @@ We also learned the following commands
 https://www.codecademy.com/practice/tracks/learn-git-introduction/modules/important-git-operations
 https://www.codecademy.com/learn/learn-git/modules/learn-git-git-teamwork-u/cheatsheet
 https://www.codecademy.com/article/what-is-diffing
+https://www.freecodecamp.org/chinese/news/how-to-make-your-first-pull-request-on-github/
