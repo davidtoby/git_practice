@@ -1,0 +1,14 @@
+git push -u origin Dev1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 504 bytes | 504.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Dev1' on GitHub by visiting:
+remote:      https://github.com/davidtoby/git_practice/pull/new/Dev1
+remote: 
+To github.com:davidtoby/git_practice.git
+ * [new branch]      Dev1 -> Dev1
+branch 'Dev1' set up to track 'origin/Dev1'.
