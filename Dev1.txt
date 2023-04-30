@@ -42,3 +42,16 @@ Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:davidtoby/git_practice.git
    2c532de..68248af  Dev1 -> Dev1
+
+
+Git 分支合并回主分支的过程可以通过以下步骤实现：
+
+假设有一个主分支 master 和一个功能分支 feature，你想要将 feature 分支的更改合并到 master 分支。
+
+确保 master 分支是最新的。在本地克隆仓库中，使用 git checkout master 命令切换到 master 分支。
+使用 git pull 命令拉取远程 master 分支的最新更改。
+使用 git merge feature 命令将 feature 分支的更改合并到当前的 master 分支。
+如果没有冲突，Git 会自动进行合并。如果存在冲突，你需要手动解决冲突，然后将解决冲突后的文件添加到暂存区，并提交更改。
+使用 git push 命令将合并后的 master 分支推送到远程仓库。
+这样，feature 分支的更改就被成功合并到了 master 分支。
+
