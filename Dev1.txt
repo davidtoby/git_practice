@@ -22,3 +22,23 @@ branch 'Dev1' set up to track 'origin/Dev1'.
   - git push origin <branch_name>: Pushes a local branch to the origin remote.
 
 
+#Pull Request
+git add .
+
+git commit -m "add-one-more-reference-URL"
+[Dev1 68248af] add-one-more-reference-URL
+ 1 file changed, 1 insertion(+)
+
+git_practice % git remote
+origin
+
+git push origin Dev1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 373 bytes | 373.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:davidtoby/git_practice.git
+   2c532de..68248af  Dev1 -> Dev1
