@@ -112,6 +112,6 @@ while True:
     pygame.display.flip()
 
     speed = 5 + len(snake_body) / 2
-    # Set game speed
+    # Set game speed with var
     clock.tick(speed)
 
